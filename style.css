@@ -1,0 +1,98 @@
+* {
+ /* box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;*/
+}
+header{
+  
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #BB3A3A;
+}
+nav{
+  background-color: #C662AA;
+}
+nav li{
+  text-align: center;
+  width: 15%;
+  list-style: none;
+}
+h1{
+  color: goldenrod;
+  background: rgb(195,145,34);
+  background: linear-gradient(270deg, rgba(195,145,34,1) 8%, rgba(34,193,195,1) 50%, rgba(253,187,45,1) 93%); 
+}
+nav ul{
+  
+  display: flex ;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: yellow;
+
+}
+
+
+#blocPrincipal {
+  width: 100%;
+  max-width: 2000px;
+}
+
+.ecran {
+ 
+  display: flex;
+}
+
+section {
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ecran 1 */
+.ecran1 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* ecran 2 */
+.ecran2 {
+  width: 100%;
+}
+
+/* ecran 3*/
+.ecran3 {
+  width: 100%;
+
+}
+
+/* ecran 4*/
+.ecran4 {
+  width: 100%;
+}
+
+/* ecran 5*/
+.ecran5 {
+  width: 100%;
+}
+
+/* ecran 6*/
+.ecran6 {
+  width: 100%;
+}
