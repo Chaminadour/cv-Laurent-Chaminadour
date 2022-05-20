@@ -27,9 +27,9 @@ nav li{
   list-style: none;
 }
 h1{
-  color: goldenrod;
+  color: rgb(66, 32, 218);
   background: rgb(195,145,34);
-  background: linear-gradient(270deg, rgba(195,145,34,1) 8%, rgba(34,193,195,1) 50%, rgba(253,187,45,1) 93%); 
+  background: linear-gradient(270deg, rgba(195,145,34,1) 24%, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 86%); 
 }
 nav ul{
   
@@ -50,7 +50,7 @@ nav ul{
 }
 
 .ecran {
- 
+  
   display: flex;
 }
 
@@ -69,30 +69,56 @@ section {
   justify-content: center;
   align-items: center;
   align-content: center;
+  background: rgb(195,145,34);
+  background: linear-gradient(270deg, rgba(195,145,34,1) 24%, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 86%); 
 }
+div .h1{
+   
+  text-align: center;
+}
+div .h2{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #BB3A3A;
+  text-align: end;
+  display: block;
+  flex: auto;
+}
+
+p{
+  height: auto;
+  text-align: center;
+}
+
 
 /* ecran 2 */
 .ecran2 {
+  background-color: aqua;
   width: 100%;
 }
 
 /* ecran 3*/
 .ecran3 {
+  background-color: black;
   width: 100%;
 
 }
 
 /* ecran 4*/
 .ecran4 {
+  background-color: green;
   width: 100%;
 }
 
 /* ecran 5*/
 .ecran5 {
+  background-color: blue;
   width: 100%;
 }
 
 /* ecran 6*/
 .ecran6 {
   width: 100%;
+  background-color: burlywood;
 }
