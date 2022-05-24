@@ -6,9 +6,118 @@
   font-size: 16px;*/
 }
 header{
-  
   text-align: center;
+  font-size: xx-large;
+  color: rgb(72, 72, 62);
 }
+label.logo{
+  color: white;
+  font-size:auto;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  width: 24%;
+  text-align: left;
+}
+nav ul{
+  display: flex ;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: yellow;
+}
+
+nav ul li{
+  text-align: center;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: rgb(8, 23, 223);
+  font-size: 1.2rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active, a:hover{
+  /*background: #1f1f1f;*/
+  color: #1f1f1f;
+  font-weight: bold;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display:none;
+}
+
+@media (max-width:952px){
+  label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+  }
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+
+
+@media (max-width:858px){
+  .checkbtn{
+      display: block;
+  }
+
+  nav{
+      padding: 0 20px;
+  }
+
+  label.logo{
+      width: 90%;
+      text-align: center;
+  }
+  header {
+    display: none;
+  }
+  nav ul{
+    
+      flex-direction: column;
+      
+      width: auto;
+      height: 30vh;
+      background: #7c9a3d;
+      transition: all .5s;
+      top:auto;
+      left: auto;
+      width: auto;
+      margin: 0;
+  }
+  nav ul li{
+    display: block;
+    margin: 5px 0;
+    line-height: 20px;
+}
+  nav ul li a{
+      font-size: 20px;
+  }
+  a:hover,a.active{
+      background: none;
+      color: #05be4c;
+  }
+  #check:checked ~ ul{
+      left:0;
+  }
+}
+
 
 body {
   width: 100%;
@@ -16,9 +125,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #BB3A3A;
+  background: #3abb70;
 }
 nav{
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   background-color: #C662AA;
 }
 nav li{
@@ -30,6 +142,16 @@ h1{
   color: rgb(66, 32, 218);
   background: rgb(195,145,34);
   background: linear-gradient(270deg, rgba(195,145,34,1) 24%, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 86%); 
+}
+h2{
+  color: #3b1de2;
+}
+h3{
+  color: #BB3A3A;
+}
+.a {
+  color: #05be4c;
+  background-color: #1f1f1f;
 }
 nav ul{
   
@@ -50,8 +172,8 @@ nav ul{
 }
 
 .ecran {
-  
-  display: flex;
+ 
+  text-align: center;
 }
 
 section {
@@ -75,12 +197,13 @@ section {
 div .h1{
    
   text-align: center;
+  color: #BB3A3A;
 }
 div .h2{
   justify-content: center;
   align-items: center;
   align-content: center;
-  color: #BB3A3A;
+  color: #3b1de2;
   text-align: end;
   display: block;
   flex: auto;
@@ -89,6 +212,8 @@ div .h2{
 p{
   height: auto;
   text-align: center;
+  color: blue;
+ 
 }
 
 
@@ -100,8 +225,9 @@ p{
 
 /* ecran 3*/
 .ecran3 {
-  background-color: black;
+  background-color: rgb(203, 201, 58);
   width: 100%;
+  color: beige;
 
 }
 
