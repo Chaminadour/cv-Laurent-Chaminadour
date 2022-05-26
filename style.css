@@ -81,7 +81,7 @@
    
    nav ul{
      display: flex ;
-    width: 100%;
+     width: 100%;
      font-size: 30px;
      line-height: 50px;
      padding-left: 20px;
@@ -99,11 +99,11 @@
 
 
    nav ul li a{
-     color: rgb(2, 12, 163);
+     color: rgb(24, 29, 99);
      font-size: 1.2rem;
      border: 0 solid;
      border-radius: 15% 50%;
-     box-shadow: 5px 5px #1f1f1f;
+     box-shadow: 5px 5px #704545;
      text-transform: uppercase;
      background-color: rgb(142, 187, 69);
      padding: 5%;
@@ -111,15 +111,15 @@
    
    a.active, a:hover{
      /*background: #1f1f1f;*/
-     background-color: #6f7580;
-     color: #1f1f1f;
+     background-color: #536485;
+     color: #633333;
      font-weight: bold;
      transition: .3s;
    }
    
    .checkbtn{
      font-size: 30px;
-     color: white;
+     
      float: right;
      line-height: 80px;
      margin-right: 40px;
@@ -139,17 +139,17 @@
 
 
    h1{
-     color: rgb(66, 32, 218);
+     color: rgb(35, 75, 128);
      text-align: center;
      
      
    }
    h2{
-     color: #3b21cd;
+     color: #2e5b74;
      font-size: xxx-large;
    }
    h3{
-     color: #BB3A3A;
+     color: #356b47;
    }
    
    nav ul{
@@ -160,7 +160,7 @@
      line-height: 50px;
      padding-left: 20px;
      padding-right: 20px;
-     color: yellow;
+     color: rgb(190, 190, 84);
    
    }
    
@@ -172,8 +172,8 @@
    
    .ecran {
      height: 100%;
-     width: 100%;
-    
+     width: 100%; 
+        
      text-align: center;
    }
    
@@ -207,26 +207,20 @@
      width: 75%;
    }
 
-   div .h1{
+   div .h1{      
+
+    text-align: center;  
       
-     text-align: center;
-     color: #BB3A3A;
-   }
-   div h2{
-    
-     text-align: center;
-     align-content: center;
-     color: #2d1d8b;
-    
-     
-    
-   }
-   
+  }
+  div h2{ 
+    text-align: center ;
+  }
+  
    p{
      height: auto;
      text-align: center;
-     color: rgb(209, 35, 168);
-    
+     color: rgb(107, 39, 128); 
+
    }
    
    
@@ -329,11 +323,11 @@
      }
      nav ul{ 
        
-         display: inline-block;  
+        display: inline-block;  
          position: fixed;
          width: 100%;
-         height: 70vh;
-         background: #7c9a3d;
+         height: 800vh;
+         background: #30381d;
          transition: all .5s;
          top:240px;
          left: -100%;
@@ -342,7 +336,7 @@
      }
      nav ul li{
        display: block;
-       margin: 70px 0;
+       margin: 80px 0;
        line-height: 20px;
        text-align: center;
        width: 100%;
