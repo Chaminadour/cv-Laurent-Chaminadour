@@ -13,22 +13,48 @@
    header{
      
      width: 100%;
-     height: 100vh;
+     height: 145vh;
      display: flex;
      flex-direction: column;
      font-size: xxx-large;
     
    }
+   h4{
+    margin: 0;
+    font-size: auto;
+    color: #275dad;
+    text-shadow: 0 1px 0 #32312b, 0 2px 0 #32312b, 0 3px 0 #32312b,
+         0 4px 0 #32312b, 0 5px 0 #32312b, 0 6px 0 #32312b, 0 7px 0 #32312b,
+         0 8px 0 #32312b, 0 9px 0 #32312b, 0 50px 30px rgba(0, 0, 0, 0.8);
+   }
 
    .container {  
      width: 100%;
-     height: 50%;
+     height: 60%;
      text-align: center;
      display: auto;
      justify-content: space-around;
      padding:auto;
      
    }
+    image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    color: beige;
+    border: #a77878;
+  
+  }
+  div image{
+    width: 100%;
+    border: #a77878;
+  }
+ .photo{
+    width: 10%;
+    top: 5px;
+    border: #a77878;
+  }
    
    .white {
    
@@ -151,6 +177,9 @@
    h3{
      color: #356b47;
    }
+   h6{
+    height: 5vh;
+   }
    
    nav ul{
      
@@ -171,7 +200,7 @@
    }
    
    .ecran {
-     height: 100%;
+     height: 50%;
      width: 100%; 
         
      text-align: center;
@@ -188,6 +217,7 @@
    
    /* ecran 1 */
    .ecran1 {
+    
      width: 100%;
      display: flex;
      flex-direction: column;
@@ -226,12 +256,13 @@
    
    /* ecran 2 */
    .ecran2 {
-     
+    height: 30vh;
      width: 100%;
    }
    
    /* ecran 3*/
    .ecran3 {
+    height: 30vh;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -251,23 +282,34 @@
    
    /* ecran 4*/
    .ecran4 {
-     
+    height: 30vh;
      width: 100%;
    }
    
    /* ecran 5*/
    .ecran5 {
+    height: 30vh;
      
      width: 100%;
    }
    
    /* ecran 6*/
-   .ecran6 {
-     width: 100%;
+   .ecran6 { 
+    width: 100%; 
    }
+  .contenair-pote {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height:20%;
+  }
+   
+   
    /* ecran 6*/
    .ecran7{
-     
+     height: 30vh;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -276,6 +318,7 @@
    }
    .ecran7 .h2ecran7{
      width: 100%;
+     
    }
    .ecran7 div{
      width: 30%;
@@ -326,10 +369,10 @@
         display: inline-block;  
          position: fixed;
          width: 100%;
-         height: 800vh;
+         height: 900vh;
          background: #30381d;
          transition: all .5s;
-         top:240px;
+         top:200px;
          left: -100%;
          margin: 0;
          text-align: center;
