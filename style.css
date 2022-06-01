@@ -30,7 +30,7 @@
 
    .container {  
      width: 100%;
-     height: 60%;
+     height: 50%;
      text-align: center;
      display: auto;
      justify-content: space-around;
@@ -51,8 +51,8 @@
     border: #a77878;
   }
  .photo{
-    width: 10%;
-    top: 5px;
+    width: 9%;
+    top: 15px;
     border: #a77878;
   }
    
@@ -175,7 +175,7 @@
      font-size: xxx-large;
    }
    h3{
-     color: #356b47;
+     color: #a43216;
    }
    h6{
     height: 5vh;
@@ -232,7 +232,7 @@
    }
 
    .ecran1 .bac{
-     border: 1px solid;
+     border: 2px solid;
      border-radius: 20%;
      width: 75%;
    }
@@ -249,7 +249,7 @@
    p{
      height: auto;
      text-align: center;
-     color: rgb(107, 39, 128); 
+     color: rgb(255, 255, 255); 
 
    }
    
@@ -293,18 +293,103 @@
      width: 100%;
    }
    
+   
    /* ecran 6*/
    .ecran6 { 
     width: 100%; 
    }
-  .contenair-pote {
+   .contain-portofolio{
+    width: 90%;
+    height: 90%;
+    margin: 50px auto;
+    background: rgb(121,9,30);
+     background: linear-gradient(180deg, rgba(121,9,30,0.5382528011204482) 25%, rgba(36,28,0,0.5102415966386555) 64%, rgba(9,26,121,0.4990371148459384) 100%);
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    width: 30%;
-    height:20%;
+    align-content: center;
   }
+  .contain-portofolio div{
+   
+  }
+  .portofolio .photo{
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 20px auto;
+  }
+  .portofolio:nth-child(1) .photo{
+    background: lightcoral;
+    background-image: url('image/trendoard01.png');
+    background-size: cover;
+    width: 400px;
+    height: 280px;
+    margin-left: -0px;
+}
+.portofolio:nth-child(2) .photo{
+  background: lightblue;
+  background-image: url('image/images.png');
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+ 
+}
+
+.portofolio:nth-child(3) .photo{
+  background: lawngreen;
+  background-image: url('image/dos---2.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 280px;
+  margin-left: -0px;
+}
+
+.portofolio:nth-child(4) .photo{
+  background: lightcoral;
+  background-image: url('image/Peintur-laurent2.jpg');
+  background-size: cover;
+  width: 260px;
+  height: 450px;
+}
+
+.portofolio:nth-child(5) .photo{
+  background: lightblue;
+  background-image: url('image/Web 1920 – 6.png');
+  background-size: cover;
+  width: 260px;
+  height: 450px;
+}
+
+.portofolio:nth-child(6) .photo{
+  background: lawngreen;
+  background-image: url('image/Plan_de_travail_1.png');
+  background-size: cover;
+  width: 260px;
+  height: 450px;
+}
+
+.portofolio h2{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  color: #b46551;
+}
+.portofolio p{
+  text-align: justify;
+  color: #fff;
+}
+.contain-portofolio a  {
+    
+  color: #05be4c;
+   }
+   .contain-portofolio a:visited  {
+    
+    color: #fff;
+   }
+   .contain-portofolio a:hover  {
+    
+    color: rgb(157, 86, 86);
+   }
    
    
    /* ecran 6*/
@@ -314,7 +399,7 @@
      flex-wrap: wrap;
      justify-content: center;
      width: 100%;
-     color: beige;
+     color: rgb(215, 215, 91);
    }
    .ecran7 .h2ecran7{
      width: 100%;
@@ -329,6 +414,30 @@
    #check{
      display:none;
    }
+   contain-tout{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    }
+    .form-container{
+    width: 50%;
+    height: 100%;
+    margin: 100px;
+    color: rgb(2, 54, 127);
+    background-color:rgb(222, 222, 220);
+    box-shadow: 0 4px 8px 2px #141414;
+    border-radius: 10px;
+    
+    }
+    #contact-form{
+    width: auto;
+    height: auto;
+    padding: 60px 60px;
+    }
    
    @media (max-width:952px){
      label.logo{
@@ -394,6 +503,39 @@
      }
      #check:checked ~ ul{
          left:0;
+     }
+     .contain-portofolio div{
+      width: 100%;
+    height: 100px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 0 4px 8px 2px #141414;
+    border-radius: 10px;
+     }
+     .portofolio:nth-child(1) .photo{
+      width:200px;
+      height: 150px;
+      
+     }
+     .portofolio:nth-child(2) .photo{
+      width:200px;
+      height: 150px;
+     }
+     .portofolio:nth-child(3) .photo{
+      width:200px;
+      height: 150px;
+     }
+     .portofolio:nth-child(4) .photo{
+      width:200px;
+      height: 150px;
+     }
+     .portofolio:nth-child(5) .photo{
+      width:200px;
+      height: 150px;
+     }
+     .portofolio:nth-child(6) .photo{
+      width:200px;
+      height: 150px;
      }
    }
    

@@ -8,6 +8,13 @@
     <title>C.V</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/097058085d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('Wv_td7RwkncLdCFuh');
+        })();
+    </script>
 
 
     <link rel="stylesheet" href="style.css">
@@ -41,6 +48,7 @@
                     <li><a>Accueil</a></li>
                     <li><a>A Propos</a></li>
                     <li><a>Compétences</a></li>
+                    <li><a>Loisirs</a></li>
                     <li><a>Formation</a></li>
                     <li><a>Portofolio</a></li>
                     <li><a>Me contacter</a></li>
@@ -63,6 +71,7 @@
                         les corps de métiers possible et enfin je viens de trouver
                         ma voie
                     <p> DESIGNER WEB et DEVELOPPEUR FROND END</p>
+                    <p>dfghjkl</p>
 
                     </p><br>
                 </div><br>
@@ -73,7 +82,7 @@
         <!--ecran 2-->
         <div class="ecran ecran2">
             <h6></h6><br>
-            <h2>qui je suis </h2>
+            <h2>Compétence </h2>
             <h3>Laurent CHAMINADOUR</h3>
             <p>fghjklm</p><br>
         </div>
@@ -101,43 +110,53 @@
         </div>
         <!--ecran 4-->
         <div class="ecran ecran4">
-            <h2>MES Competences</h2>
+            <h2>Formation</h2>
         </div><br>
+        <h2>CV</h2><br>
         <!--ecran 5-->
         <div class="ecran ecran5">
-            <h2>CV</h2><br>
+
         </div>
         <!--ecran 6-->
         <div class="ecran ecran6">
             <h2>Portefolio</h2>
             <p>voila des illutration </p><br>
-            <div class="contenair-pote">
-                <div>
-                    <img src="image/trendoard01.png" alt="">
-                    <p>fg</p>
+            <div class="contain-portofolio">
+                <div class="portofolio">
+                    <div class="photo"></div>
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, enim.</p>
+                </div>
+                <div class="portofolio">
+                    <div class="photo"></div>
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, enim.</p>
+                </div>
+                <div class="portofolio">
+                    <div class="photo"></div>
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, enim.</p>
+                </div>
+                <div class="portofolio">
+                    <div class="photo"></div>
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, enim.</p>
+                </div>
+                <div class="portofolio">
+                    <div class="photo"></div>
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, enim.</p>
+                </div>
+                <div class="portofolio">
+                    <div class="photo"></div>
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, enim.</p>
                 </div>
                 <div>
-                    <img src="image/images.png" alt="">
-                    <p></p>
-                </div>
-                <div>
-                    <img src="image/dos---2.jpg" alt="">
-                    <p></p>
-                </div>
-
-                <div>
-                    <img src="image/Peintur-laurent2.jpg" alt="">
-                    <p></p>
-                </div>
-                <div>
-                    <img src="image/Web 1920 – 6.png" alt="">
-                    <p></p>
-                </div>
-                <div>
-                    <img src="image/Plan_de_travail_1.png" alt="">
-                    <p></p>
+                    <a href="http://apedudouaisis.fr/" target="_blank">APE du DOUAISIS</a>
                 </div>
             </div>
+
         </div>
     </div>
     <!--ecran 7-->
@@ -161,6 +180,39 @@
         </div>
 
     </div>
+    </div>
+    <div id="result-form">
+    </div>
+    <div class="contain-tout">
+        <div class="form-container">
+            <form method="post" id="contact-form">
+                <div>
+                    <label for="nom">Nom : *</label>
+                    <input type="text" name="nom" id="nom" required minlength="3" maxlength="20">
+                    <span class="error"></span>
+                </div>
+                <div>
+                    <label for="email">Adresse email : *</label>
+                    <input type="email" name="email" id="email" minlength="6" maxlength="50">
+                    <span class="error"></span>
+                </div>
+                <div>
+                    <label for="telephone">Téléphone :</label>
+                    <input type="text" name="telephone" id="telephone">
+                    <span class="error"></span>
+                </div>
+                <div>
+                    <label for="message">Message : *</label>
+                    <textarea name="message" id="message" name="message" required minlength="10"
+                        maxlength="250"></textarea>
+                    <span class="error"></span>
+                </div>
+                <div>
+                    <input class="btn" id="submit" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+       
     </div>
 
     <script src="js.js"></script>
